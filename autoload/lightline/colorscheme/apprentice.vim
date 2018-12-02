@@ -20,7 +20,7 @@ let s:_bg = [ '#262626', '235' ]
 let s:_fg = [ '#bcbcbc', '250' ]
 
 let s:bg2 = [ '#303030', '236' ] " almost-background
-"let s:bg3 = [ '#242424', '236' ] " almost-background
+let s:bg3 = [ '#3a3a3a', '237' ] " almost-background
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
@@ -32,8 +32,8 @@ let s:p.inactive.left   = [ s:fg_bg( s:_bg, s:__8 )                          ]
 let s:p.inactive.middle = [ s:fg_bg( s:__8, s:__0 )                          ]
 let s:p.inactive.right  = [ s:fg_bg( s:_bg, s:__8 )                          ]
 let s:p.insert.left     = [ s:fg_bg( s:_bg, s:_10 ), s:fg_bg( s:_bg, s:__6 ) ]
-let s:p.insert.middle   = [ s:fg_bg( s:_fg, s:__8 )                          ]
-let s:p.insert.right    = [ s:fg_bg( s:_bg, s:__3 ), s:fg_bg( s:_bg, s:__6 ) ]
+let s:p.insert.middle   = [ s:fg_bg( s:__7, s:bg3 )                          ]
+let s:p.insert.right    = [ s:fg_bg( s:_bg, s:__3 ), s:fg_bg( s:_bg, s:__8 ) ]
 let s:p.normal.error    = [ s:fg_bg( s:__0, s:__1 )                          ]
 let s:p.normal.left     = [ s:fg_bg( s:_bg, s:__6 ), s:fg_bg( s:_bg, s:__8 ) ]
 let s:p.normal.middle   = [ s:fg_bg( s:__7, s:bg2 )                          ]
